@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <title>Портфолио</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="header-title" style="font-family: 'Alegreya', sans-serif;">Вараксин</h1>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio" style="font-family: 'Rubik Maps', sans-serif;">Портфолио</a></li>
+                    <li><a href="#about" style="font-family: 'Rubik Maps', sans-serif;">Обо мне</a></li>
+                    <li><a href="#contact" style="font-family: 'Rubik Maps', sans-serif;">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="portfolio" class="grid-container">
+        <div class="portfolio-header">
+            <div class="circle-photo">
+                <img src="images/ava.jpeg" alt="Ваше фото">
+            </div>
+            <div class="portfolio-text" style="font-family: 'Alegreya', sans-serif;">
+                <h2>Портфолио</h2>
+                <p id="portfolio-text">Меня зовут Вараксин Владислав, я занимаюсь программированием. Изучаю Python, Frontend и Backend.</p>
+            </div>
+        </div>
+
+        <div id="skills" class="grid-item">
+            <h3 style="font-family: 'Alegreya', sans-serif;">Навыки</h3>
+            <ul>
+                <li>
+                    <img src="images/python.png" alt="Пайтон" title="Пайтон">
+                    <span class="percentage">75%</span>
+                </li>
+                <li>
+                    <img src="images/js.jpg" alt="JavaScript" title="JavaScript">
+                    <span class="percentage">30%</span>
+                </li>
+                <li>
+                    <img src="images/html.png" alt="HTML" title="HTML">
+                    <span class="percentage">50%</span>
+                </li>
+                <li>
+                    <img src="images/css.png" alt="CSS" title="CSS">
+                    <span class="percentage">50%</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <p class="center-text" style="font-family: 'Rubik Maps', sans-serif;">Fulstack на Python </p>
+        <div class="container_skill">
+            <div class="skills fs" style="font-family: 'Alegreya', sans-serif;">65%</div>
+        </div>
+
+        <section id="about">
+            <h2 style="font-family: 'Rubik Maps', sans-serif;">Обо мне</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide" style="background-image: url('images/slide1.jpg');">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <p>Занимаюсь программированием</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('images/slide2.jpg');">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <p>Занимаюсь мотокроссом </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="grid-container">
+            <h2 style="font-family: 'Rubik Maps', sans-serif;">Контакты</h2>
+            <div class="contact-container">
+                <div class="contact-info" id="email" data-info="Почта vladmen13@mail.ru">
+                    <img src="images/mail.png" alt="Email">
+                    <p style="font-family: 'Alegreya', sans-serif;"> Email</p>
+                </div>
+                <div class="contact-info" id="phone" data-info="Номер телефона: +123456789">
+                    <img src="images/phones .png" alt="Phone">
+                    <p style="font-family: 'Alegreya', sans-serif;">Телефон</p>
+                </div>
+                <div class="contact-info" id="vk" data-info="Профиль ВКонтакте">
+                    <a href="https://vk.com/your_vk_profile" target="_blank">
+                        <img src="images/vk.png" alt="VK">
+                        <p style="font-family: 'Alegreya', sans-serif;">VK</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="grid-item">
+            <p>Создано Варксиным В. И. 2023 год</p>
+        </footer>
+        
+        <script src="styles/js/script.js"></script>
+    </body>
+    </html>
