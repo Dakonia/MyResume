@@ -156,7 +156,7 @@ section {
 .fs {width: 90%; background-color: #04AA6D;}
 
 .slider-container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 20px auto;
     overflow: hidden;
     position: relative;
